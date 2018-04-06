@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B5643A20777D2D00FDD005 /* Mahesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5643920777D2D00FDD005 /* Mahesh.m */; };
 		F2297D2F207776FC0002564D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2297D2E207776FC0002564D /* main.m */; };
 		F2297D32207776FC0002564D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2297D31207776FC0002564D /* AppDelegate.m */; };
 		F2297D35207776FC0002564D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2297D34207776FC0002564D /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B5643820777D2D00FDD005 /* Mahesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mahesh.h; sourceTree = "<group>"; };
+		18B5643920777D2D00FDD005 /* Mahesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mahesh.m; sourceTree = "<group>"; };
 		F2297D2A207776FC0002564D /* GitHub_Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub_Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2297D2E207776FC0002564D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2297D30207776FC0002564D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				F2297D31207776FC0002564D /* AppDelegate.m */,
 				F2297D33207776FC0002564D /* ViewController.h */,
 				F2297D34207776FC0002564D /* ViewController.m */,
+				18B5643820777D2D00FDD005 /* Mahesh.h */,
+				18B5643920777D2D00FDD005 /* Mahesh.m */,
 				F2297D36207776FC0002564D /* Main.storyboard */,
 				F2297D6020777D3E0002564D /* Chandan.h */,
 				F2297D6120777D3E0002564D /* Chandan.m */,
@@ -279,7 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2297D35207776FC0002564D /* ViewController.m in Sources */,
+<<<<<<< HEAD
 				F2297D6220777D3E0002564D /* Chandan.m in Sources */,
+=======
+				18B5643A20777D2D00FDD005 /* Mahesh.m in Sources */,
+>>>>>>> 4e50d276a5b885c13e4501e6d47fdf6f2699e694
 				F2297D32207776FC0002564D /* AppDelegate.m in Sources */,
 				F2297D2F207776FC0002564D /* main.m in Sources */,
 			);
@@ -515,6 +524,7 @@
 				F2297D59207776FD0002564D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2297D5A207776FD0002564D /* Build configuration list for PBXNativeTarget "GitHub_TestingTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				F2297D5C207776FD0002564D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2297D5D207776FD0002564D /* Build configuration list for PBXNativeTarget "GitHub_TestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +542,7 @@
 				F2297D5F207776FD0002564D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
